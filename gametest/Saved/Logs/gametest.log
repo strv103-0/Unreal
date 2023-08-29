@@ -1149,3 +1149,309 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.29-08.38.03:528][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
 [2023.08.29-08.38.03:535][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
 [2023.08.29-08.38.03:541][181]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 407 ms)
+[2023.08.29-08.38.45:560][535]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.055 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 493 files in 831 folders with total size 2 MiB.
+[2023.08.29-08.40.30:369][ 63]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.08.29-08.40.30:374][ 63]LogContentBundle: [ThirdPersonMap(독립형)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-08.40.30:375][ 63]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-08.40.30:375][ 63]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-08.40.30:375][ 63]LogWorldPartition: Display: GetPartitionedActors took 11 us
+[2023.08.29-08.40.30:375][ 63]LogWorldPartition: Display: GenerateStreaming took 185 us
+[2023.08.29-08.40.30:381][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-08.40.30:385][ 63]PIE: New page: PIE 세션: ThirdPersonMap (2023. 8. 30. 오전 2:40:30)
+[2023.08.29-08.40.30:388][ 63]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.08.29-08.40.30:388][ 63]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.08.29-08.40.30:388][ 63]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.08.29-08.40.30:393][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004542s)
+[2023.08.29-08.40.30:393][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004588s)
+[2023.08.29-08.40.30:393][ 63]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-08.40.30:393][ 63]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-08.40.30:393][ 63]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.08.29-08.40.30:395][ 63]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-08.40.30:395][ 63]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-08.40.30:395][ 63]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-08.40.30:396][ 63]LogContentBundle: [ThirdPersonMap(독립형)] Creating new contrainer.
+[2023.08.29-08.40.30:396][ 63]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 775 ms)
+[2023.08.29-08.40.30:396][ 63]LogPlayLevel: PIE: World Init took: (0.002306s)
+[2023.08.29-08.40.30:402][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.08.29-08.40.30:403][ 63]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.08.29-08.40.30:403][ 63]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-08.40.30:403][ 63]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-08.40.30:403][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-08.40.30:403][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-08.40.30:403][ 63]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-08.40.30:403][ 63]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-08.40.30:403][ 63]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-08.40.30:404][ 63]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-08.40.30:404][ 63]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-08.40.30:404][ 63]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-08.40.30:404][ 63]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-08.40.30:406][ 63]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-08.40.30:443][ 63]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2023.08.29-08.40.30:443][ 63]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-08.40.30:443][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-08.40.30:443][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-08.40.30:445][ 63]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.08.29-08.40.30:445][ 63]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.08.29-08.40.30:446][ 63]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.08.29-08.40.30:446][ 63]LogInit: FAudioDevice initialized with ID 2.
+[2023.08.29-08.40.30:446][ 63]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.08.29-08.40.30:446][ 63]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2023.08.29-08.40.30:446][ 63]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.08.29-08.40.30:449][ 63]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-08.40.30:452][ 63]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.08.29-17.40.30
+[2023.08.29-08.40.30:452][ 63]LogWorld: Bringing up level for play took: 0.001598
+[2023.08.29-08.40.30:453][ 63]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.08.29-08.40.30:486][ 63]PIE: 서버가 로그인했습니다.
+[2023.08.29-08.40.30:487][ 63]PIE: 에디터에서 플레이 총 시작 시간 0.112초입니다.
+[2023.08.29-08.40.30:525][ 63]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.30:527][ 63]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.30:528][ 63]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.30:528][ 63]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.30:528][ 63]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.30:529][ 63]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.30:529][ 63]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.30:530][ 63]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.31:120][ 64]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.08.29-08.40.31:147][ 64]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.31:148][ 64]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.31:148][ 64]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.31:149][ 64]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.31:150][ 64]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.31:150][ 64]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.31:152][ 64]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-08.40.31:153][ 64]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.38.20:452][513]LogViewport: Scene viewport resized to 1526x942, mode Windowed.
+[2023.08.29-09.38.26:438][531]LogViewport: Scene viewport resized to 1526x894, mode Windowed.
+[2023.08.29-09.38.45:562][667]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.056 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 493 files in 831 folders with total size 2 MiB.
+[2023.08.29-09.50.41:243][444]Set new viewmode: Wireframe
+[2023.08.29-09.50.48:755][335]Set new viewmode: Wireframe
+[2023.08.29-09.50.49:373][409]Set new viewmode: Unlit
+[2023.08.29-09.50.50:143][498]Set new viewmode: Unlit
+[2023.08.29-09.50.51:556][658]Set new viewmode: Wireframe
+[2023.08.29-09.50.52:076][720]Set new viewmode: Unlit
+[2023.08.29-09.50.52:892][814]Set new viewmode: Lit
+[2023.08.29-09.50.59:459][168]Set new viewmode: Unlit
+[2023.08.29-09.51.09:302][270]Set new viewmode: Wireframe
+[2023.08.29-09.51.10:740][442]Set new viewmode: Lit
+[2023.08.29-09.51.17:177][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-09.51.17:177][812]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.08.29-09.51.17:180][812]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-09.51.17:181][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-09.51.17:181][812]LogContentBundle: [ThirdPersonMap(독립형)] Deleting container.
+[2023.08.29-09.51.17:187][812]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-09.51.17:191][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-09.51.17:199][812]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.29-09.51.17:199][812]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.08.29-09.51.17:199][812]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.08.29-09.51.17:200][812]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.08.29-09.51.17:206][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-09.51.17:211][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.08.29-09.51.17:445][812]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.51.17:467][813]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.08.29-09.51.17:482][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.51.29:829][349]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.08.29-09.51.36:867][727]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.08.29-09.51.36:867][727]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.08.29-09.51.36:876][727]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_047C163245452EA401_1257570439
+[2023.08.29-09.51.36:889][727]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_047C163245452EA401_1257570439
+[2023.08.29-09.52.23:668][564]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.08.29-09.52.23:674][564]LogContentBundle: [ThirdPersonMap(독립형)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-09.52.23:676][564]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-09.52.23:676][564]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-09.52.23:676][564]LogWorldPartition: Display: GetPartitionedActors took 16 us (total: 27 us)
+[2023.08.29-09.52.23:676][564]LogWorldPartition: Display: GenerateStreaming took 227 us (total: 412 us)
+[2023.08.29-09.52.23:676][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-09.52.23:677][564]PIE: New page: PIE 세션: ThirdPersonMap (2023. 8. 30. 오전 3:52:23)
+[2023.08.29-09.52.23:677][564]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.08.29-09.52.23:681][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004826s)
+[2023.08.29-09.52.23:681][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004868s)
+[2023.08.29-09.52.23:681][564]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-09.52.23:681][564]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-09.52.23:682][564]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.08.29-09.52.23:682][564]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-09.52.23:682][564]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-09.52.23:682][564]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-09.52.23:684][564]LogContentBundle: [ThirdPersonMap(독립형)] Creating new contrainer.
+[2023.08.29-09.52.23:684][564]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 776 ms)
+[2023.08.29-09.52.23:685][564]LogPlayLevel: PIE: World Init took: (0.002625s)
+[2023.08.29-09.52.23:693][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.08.29-09.52.23:693][564]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.08.29-09.52.23:693][564]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-09.52.23:693][564]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-09.52.23:694][564]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-09.52.23:694][564]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-09.52.23:694][564]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-09.52.23:694][564]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-09.52.23:694][564]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-09.52.23:694][564]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-09.52.23:694][564]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-09.52.23:694][564]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-09.52.23:694][564]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-09.52.23:696][564]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-09.52.23:736][564]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2023.08.29-09.52.23:736][564]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-09.52.23:736][564]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-09.52.23:736][564]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-09.52.23:738][564]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.08.29-09.52.23:738][564]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.08.29-09.52.23:740][564]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.08.29-09.52.23:740][564]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.08.29-09.52.23:740][564]LogInit: FAudioDevice initialized with ID 3.
+[2023.08.29-09.52.23:740][564]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2023.08.29-09.52.23:740][564]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.08.29-09.52.23:742][564]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-09.52.23:743][564]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.08.29-18.52.23
+[2023.08.29-09.52.23:744][564]LogWorld: Bringing up level for play took: 0.001726
+[2023.08.29-09.52.23:746][564]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.08.29-09.52.23:751][564]PIE: 서버가 로그인했습니다.
+[2023.08.29-09.52.23:751][564]PIE: 에디터에서 플레이 총 시작 시간 0.077초입니다.
+[2023.08.29-09.52.23:769][564]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:769][564]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:770][564]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:771][564]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:773][564]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:774][564]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:775][564]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:776][564]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:793][565]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:793][565]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:793][565]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:795][565]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:795][565]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:796][565]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:796][565]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.52.23:797][565]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.01:438][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-09.53.01:439][728]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.08.29-09.53.01:439][728]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-09.53.01:439][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-09.53.01:439][728]LogContentBundle: [ThirdPersonMap(독립형)] Deleting container.
+[2023.08.29-09.53.01:450][728]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-09.53.01:452][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-09.53.01:459][728]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.29-09.53.01:459][728]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.08.29-09.53.01:459][728]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.08.29-09.53.01:461][728]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.08.29-09.53.01:466][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-09.53.01:467][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.08.29-09.53.01:551][728]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.01:569][729]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.08.29-09.53.01:582][729]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:297][100]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.08.29-09.53.27:303][100]LogContentBundle: [ThirdPersonMap(독립형)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-09.53.27:304][100]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-09.53.27:304][100]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-09.53.27:304][100]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 34 us)
+[2023.08.29-09.53.27:304][100]LogWorldPartition: Display: GenerateStreaming took 135 us (total: 548 us)
+[2023.08.29-09.53.27:304][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-09.53.27:304][100]PIE: New page: PIE 세션: ThirdPersonMap (2023. 8. 30. 오전 3:53:27)
+[2023.08.29-09.53.27:304][100]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.08.29-09.53.27:308][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003582s)
+[2023.08.29-09.53.27:308][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003620s)
+[2023.08.29-09.53.27:308][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-09.53.27:308][100]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-09.53.27:308][100]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.08.29-09.53.27:309][100]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-09.53.27:309][100]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-09.53.27:309][100]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-09.53.27:309][100]LogContentBundle: [ThirdPersonMap(독립형)] Creating new contrainer.
+[2023.08.29-09.53.27:309][100]LogWorldPartition: Display: WorldPartition initialize took 860 us (total: 777 ms)
+[2023.08.29-09.53.27:310][100]LogPlayLevel: PIE: World Init took: (0.001779s)
+[2023.08.29-09.53.27:316][100]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.08.29-09.53.27:317][100]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.08.29-09.53.27:317][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-09.53.27:317][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-09.53.27:317][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-09.53.27:317][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-09.53.27:317][100]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-09.53.27:317][100]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-09.53.27:317][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-09.53.27:317][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-09.53.27:317][100]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-09.53.27:317][100]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-09.53.27:317][100]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-09.53.27:320][100]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-09.53.27:357][100]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2023.08.29-09.53.27:357][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-09.53.27:357][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-09.53.27:357][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-09.53.27:359][100]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.08.29-09.53.27:359][100]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.08.29-09.53.27:361][100]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.08.29-09.53.27:361][100]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.08.29-09.53.27:361][100]LogInit: FAudioDevice initialized with ID 4.
+[2023.08.29-09.53.27:361][100]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2023.08.29-09.53.27:361][100]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.08.29-09.53.27:363][100]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-09.53.27:365][100]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.08.29-18.53.27
+[2023.08.29-09.53.27:365][100]LogWorld: Bringing up level for play took: 0.001655
+[2023.08.29-09.53.27:366][100]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.08.29-09.53.27:371][100]PIE: 서버가 로그인했습니다.
+[2023.08.29-09.53.27:371][100]PIE: 에디터에서 플레이 총 시작 시간 0.069초입니다.
+[2023.08.29-09.53.27:387][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:387][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:387][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:388][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:388][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:388][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:389][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:389][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:403][101]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:404][101]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:404][101]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:404][101]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:405][101]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:405][101]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:406][101]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.53.27:406][101]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.54.10:953][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-09.54.10:953][710]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.08.29-09.54.10:953][710]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-09.54.10:953][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-09.54.10:953][710]LogContentBundle: [ThirdPersonMap(독립형)] Deleting container.
+[2023.08.29-09.54.10:958][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-09.54.10:960][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-09.54.10:967][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-09.54.10:967][710]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.08.29-09.54.10:967][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.29-09.54.10:968][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.29-09.54.10:974][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.08.29-09.54.11:015][710]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.54.11:031][711]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.08.29-09.54.11:045][711]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.08.29-09.54.11:899][731]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-09.54.11:991][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.08.29-09.54.11:999][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.08.29-09.54.12:005][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.08.29-09.54.12:020][731]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.007458 seconds
+[2023.08.29-09.54.12:024][731]LogSerialization: UsePackageTrailer: 'true'
+[2023.08.29-09.54.12:028][731]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/39/7CAUHSY8D2HI32U5QFNS1Q
+[2023.08.29-09.54.12:028][731]LogSavePackage: Moving '../../../../../../Users/user/Desktop/Unreal/gametest/Saved/7CAUHSY8D2HI32U5QFNS1Q44AAC1B84C01B50B57C9C0B1D264377C.tmp' to '../../../../../../Users/user/Desktop/Unreal/gametest/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/39/7CAUHSY8D2HI32U5QFNS1Q.uasset'
+[2023.08.29-09.54.12:055][731]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 564 ms)
+[2023.08.29-09.54.12:058][731]AssetCheck: New page: 에셋 저장:  StaticMeshActor_UAID_047C163245452EA401_1257570439
+[2023.08.29-09.54.12:059][731]LogContentValidation: Display: /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_047C163245452EA401_1257570439 유효성 검사 중
+[2023.08.29-09.54.12:557][759]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-09.54.12:651][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.08.29-09.54.12:657][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.08.29-09.54.12:664][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.08.29-09.54.12:677][759]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 684 ms)
+[2023.08.29-09.54.12:917][774]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-09.54.13:004][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.08.29-09.54.13:012][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.08.29-09.54.13:017][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.08.29-09.54.13:030][774]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 798 ms)
+[2023.08.29-09.54.13:426][798]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-09.54.13:518][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.08.29-09.54.13:526][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.08.29-09.54.13:532][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.08.29-09.54.13:545][798]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 917 ms)
+[2023.08.29-09.54.13:607][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-09.54.13:665][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.08.29-09.54.13:671][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.08.29-09.54.13:678][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.08.29-09.54.13:690][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 1.00 sec)
+[2023.08.29-09.54.13:807][809]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-09.54.13:902][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.08.29-09.54.13:909][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.08.29-09.54.13:915][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.08.29-09.54.13:928][809]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 1.12 sec)
